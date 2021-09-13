@@ -1,5 +1,4 @@
-- name: Add issue to a project
-
+  name: Add issue to a project
   uses: cb80/add2project@v0.2.0
   with:
     # Project name
