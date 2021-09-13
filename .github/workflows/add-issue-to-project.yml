@@ -1,2 +1,12 @@
-  name: Add issue to a project
+- name: Add issue to a project
+
   uses: cb80/add2project@v0.2.0
+  with:
+    # Project name
+    project: Projecto
+    # Column name
+    column: To-do
+    # Home where the repository lives, default: the same repository the action runs
+    home: # optional, default is repos/${{ github.repository }}
+    # GitHub token, default: the auto generated token
+    token: # optional, default is ${{ github.token }}
